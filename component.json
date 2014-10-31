@@ -1,0 +1,20 @@
+{
+  "name": "is-spdx-license-identifier",
+  "version": "1.0.0",
+  "repository": "shinnn/is-spdx-license-identifier.js",
+  "description": "Check if the string is one of the SPDX license identifiers",
+  "keywords": [
+    "license",
+    "identifier",
+    "check",
+    "oss"
+  ],
+  "main": "is-spdx-license-identifier-cjs.js",
+  "scripts": [
+    "is-spdx-license-identifier-cjs.js"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "shinnn/spdx-license-identifiers": "*"
+  }
+}
