@@ -14,16 +14,18 @@ function runTest(description, main) {
 
     t.strictEqual(
       main('foo'), false,
-      'should return true when the string is a SPDX license identifier.'
+      'should return false when the string is not a SPDX license identifier.'
     );
 
-    t.throws(function() {
-      main(true);
-    }, /TypeError/, 'should throw a type error when the argument is not a string.');
+    t.strictEqual(
+      main(true), false,
+      'should return false when the argument is not a string.'
+    );
 
-    t.throws(function() {
-      main();
-    }, /TypeError/, 'should throw a type error when it takes no arguments.');
+    t.strictEqual(
+      main(), false,
+      'should return false when it takes no arguments.'
+    );
   });
 }
 
@@ -35,8 +37,6 @@ var bowerMain = require('./bower.json').main;
 require(bowerMain);
 
 var bowerDependencies = mainBowerFiles();
-bowerDependencies.forEach(function(dependencyPath) {
-  require(dependencyPath);
-});
+require(bowerDependencies[0]);
 
 runTest('window.isSpdxLicenseIdentifier', window.isSpdxLicenseIdentifier);

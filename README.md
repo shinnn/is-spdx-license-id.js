@@ -1,4 +1,4 @@
-# is-spdx-license-identifier.js
+# is-spdx-license-identifier
 
 [![Build Status](https://travis-ci.org/shinnn/is-spdx-license-identifier.js.svg?branch=master)](https://travis-ci.org/shinnn/is-spdx-license-identifier.js)
 [![Coverage Status](https://img.shields.io/coveralls/shinnn/is-spdx-license-identifier.js.svg)](https://coveralls.io/r/shinnn/is-spdx-license-identifier.js)
@@ -33,7 +33,7 @@ bower install is-spdx-license-identifier
 #### [Duo](http://duojs.org/)
 
 ```javascript
-var isSpdxLicenseIdentifier = require(shinnn/is-spdx-license-identifier.js);
+var isSpdxLicenseIdentifier = require('shinnn/is-spdx-license-identifier.js');
 ```
 
 ### Standalone
@@ -52,8 +52,6 @@ var isSpdxLicenseIdentifier = require(shinnn/is-spdx-license-identifier.js);
 Return: `Boolean`
 
 It returns `true` when the argument is one of the SPDX license identifiers, such as `'MIT'` and `'BSD-4-Clause'`. Otherwise it returns `false`.
-
-It throws a `TypeError` when the argument is not a string.
 
 ## License
 
