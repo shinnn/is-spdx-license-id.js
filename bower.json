@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Check if the string is one of the SPDX license identifiers",
   "keywords": [
+    "spdx",
     "license",
     "identifier",
     "check",
@@ -21,6 +22,9 @@
     }
   ],
   "license": "MIT",
+  "dependencies": {
+    "spdx-license-identifiers": "~1.0.0"
+  },
   "ignore": [
     "**/.*",
     "bower_components",
@@ -30,8 +34,5 @@
     "test.js",
     "package.json",
     "component.json"
-  ],
-  "dependencies": {
-    "spdx-license-identifiers": "~1.0.0"
-  }
+  ]
 }

@@ -15,7 +15,6 @@
   },
   "author": {
     "name": "Shinnosuke Watanabe",
-    "email": "snnskwtnb@gmail.com",
     "url": "https://github.com/shinnn"
   },
   "repository": {
@@ -33,6 +32,7 @@
     }
   ],
   "keywords": [
+    "spdx",
     "license",
     "identifier",
     "check",
