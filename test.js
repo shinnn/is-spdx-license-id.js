@@ -1,6 +1,6 @@
 'use strict';
 
-var mainBowerFiles = require('main-bower-files');
+var requireBowerFiles = require('require-bower-files');
 var test = require('tape');
 
 function runTest(description, main) {
@@ -32,11 +32,6 @@ function runTest(description, main) {
 runTest('require(\'is-spdx-license-identifier\')', require('./'));
 
 global.window = {};
-
-var bowerMain = require('./bower.json').main;
-require(bowerMain);
-
-var bowerDependencies = mainBowerFiles();
-require(bowerDependencies[0]);
+requireBowerFiles({self: true});
 
 runTest('window.isSpdxLicenseIdentifier', window.isSpdxLicenseIdentifier);
