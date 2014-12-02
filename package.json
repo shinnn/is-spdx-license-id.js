@@ -51,5 +51,7 @@
     "jscs": "^1.7.3",
     "require-bower-files": "^1.0.0",
     "tape": "^3.0.1"
+  "jscsConfig": {
+    "preset": "google"
   }
 }
