@@ -38,11 +38,7 @@ var isSpdxLicenseIdentifier = require('shinnn/is-spdx-license-identifier.js');
 
 ### Standalone
 
-[Download the script file directly](https://raw.githubusercontent.com/shinnn/is-spdx-license-identifier.js/master/is-spdx-license-identifier.js) and install its dependency.
-
-#### Dependency
-
-* [spdx-license-identifiers](https://github.com/shinnn/spdx-license-identifiers)
+Download [the script file](https://raw.githubusercontent.com/shinnn/is-spdx-license-identifier.js/master/is-spdx-license-identifier.js) and [its dependency](https://raw.githubusercontent.com/shinnn/spdx-license-identifiers/master/spdx-license-identifiers.js).
 
 ## API
 
