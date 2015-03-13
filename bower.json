@@ -26,13 +26,10 @@
   },
   "ignore": [
     "**/.*",
+    "*.js",
+    "*.json",
     "bower_components",
-    "components",
     "coverage",
-    "node_modules",
-    "is-spdx-license-identifier-cjs.js",
-    "test.js",
-    "package.json",
-    "component.json"
+    "node_modules"
   ]
 }
