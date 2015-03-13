@@ -1,9 +1,11 @@
 # is-spdx-license-identifier
 
+[![NPM version](https://img.shields.io/npm/v/is-spdx-license-identifier.svg)](https://www.npmjs.com/package/is-spdx-license-identifier)
+[![Bower version](https://img.shields.io/bower/v/is-spdx-license-identifier.svg)](https://github.com/shinnn/is-spdx-license-identifier.js/releases)
 [![Build Status](https://travis-ci.org/shinnn/is-spdx-license-identifier.js.svg?branch=master)](https://travis-ci.org/shinnn/is-spdx-license-identifier.js)
 [![Coverage Status](https://img.shields.io/coveralls/shinnn/is-spdx-license-identifier.js.svg)](https://coveralls.io/r/shinnn/is-spdx-license-identifier.js)
-[![Dependency Status](https://david-dm.org/shinnn/is-spdx-license-identifier.js.svg)](https://david-dm.org/shinnn/is-spdx-license-identifier.js)
-[![devDependency Status](https://david-dm.org/shinnn/is-spdx-license-identifier.js/dev-status.svg)](https://david-dm.org/shinnn/is-spdx-license-identifier.js#info=devDependencies)
+[![Dependency Status](https://img.shields.io/david/shinnn/is-spdx-license-identifier.js.svg?label=deps)](https://david-dm.org/shinnn/is-spdx-license-identifier.js)
+[![devDependency Status](https://img.shields.io/david/dev/shinnn/is-spdx-license-identifier.js.svg?label=devDeps)](https://david-dm.org/shinnn/is-spdx-license-identifier.js#info=devDependencies)
 
 Check if the string is one of the [SPDX license](http://spdx.org/licenses/) identifiers
 
@@ -18,13 +20,13 @@ isSpdxLicenseIdentifier('foo-bar-baz'); //=> false
 
 ### Package managers
 
-#### [npm](https://www.npmjs.org/) [![NPM version](https://badge.fury.io/js/is-spdx-license-identifier.svg)](https://www.npmjs.org/package/is-spdx-license-identifier)
+#### [npm](https://www.npmjs.com/)
 
 ```sh
 npm install is-spdx-license-identifier
 ```
 
-#### [Bower](http://bower.io/) [![Bower version](https://badge.fury.io/bo/is-spdx-license-identifier.svg)](https://github.com/shinnn/is-spdx-license-identifier.js/releases)
+#### [Bower](http://bower.io/)
 
 ```sh
 bower install is-spdx-license-identifier
@@ -51,6 +53,6 @@ It returns `true` when the argument is one of the SPDX license identifiers, such
 
 ## License
 
-Copyright (c) 2014 [Shinnosuke Watanabe](https://github.com/shinnn)
+Copyright (c) 2014 - 2015 [Shinnosuke Watanabe](https://github.com/shinnn)
 
 Licensed under [the MIT License](./LICENSE).
