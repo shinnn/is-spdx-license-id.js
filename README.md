@@ -1,19 +1,19 @@
-# is-spdx-license-identifier
+# is-spdx-license-id
 
-[![NPM version](https://img.shields.io/npm/v/is-spdx-license-identifier.svg)](https://www.npmjs.com/package/is-spdx-license-identifier)
-[![Bower version](https://img.shields.io/bower/v/is-spdx-license-identifier.svg)](https://github.com/shinnn/is-spdx-license-identifier.js/releases)
-[![Build Status](https://travis-ci.org/shinnn/is-spdx-license-identifier.js.svg?branch=master)](https://travis-ci.org/shinnn/is-spdx-license-identifier.js)
-[![Coverage Status](https://img.shields.io/coveralls/shinnn/is-spdx-license-identifier.js.svg)](https://coveralls.io/r/shinnn/is-spdx-license-identifier.js)
-[![Dependency Status](https://img.shields.io/david/shinnn/is-spdx-license-identifier.js.svg?label=deps)](https://david-dm.org/shinnn/is-spdx-license-identifier.js)
-[![devDependency Status](https://img.shields.io/david/dev/shinnn/is-spdx-license-identifier.js.svg?label=devDeps)](https://david-dm.org/shinnn/is-spdx-license-identifier.js#info=devDependencies)
+[![NPM version](https://img.shields.io/npm/v/is-spdx-license-id.svg)](https://www.npmjs.com/package/is-spdx-license-id)
+[![Bower version](https://img.shields.io/bower/v/is-spdx-license-id.svg)](https://github.com/shinnn/is-spdx-license-id.js/releases)
+[![Build Status](https://travis-ci.org/shinnn/is-spdx-license-id.js.svg?branch=master)](https://travis-ci.org/shinnn/is-spdx-license-id.js)
+[![Coverage Status](https://img.shields.io/coveralls/shinnn/is-spdx-license-id.js.svg)](https://coveralls.io/r/shinnn/is-spdx-license-id.js)
+[![Dependency Status](https://img.shields.io/david/shinnn/is-spdx-license-id.js.svg?label=deps)](https://david-dm.org/shinnn/is-spdx-license-id.js)
+[![devDependency Status](https://img.shields.io/david/dev/shinnn/is-spdx-license-id.js.svg?label=devDeps)](https://david-dm.org/shinnn/is-spdx-license-id.js#info=devDependencies)
 
 Check if the string is one of the [SPDX license](http://spdx.org/licenses/) identifiers
 
 ```javascript
-isSpdxLicenseIdentifier('MIT'); //=> true
-isSpdxLicenseIdentifier('zlib-acknowledgement'); //=> true
+isSpdxLicenseId('MIT'); //=> true
+isSpdxLicenseId('zlib-acknowledgement'); //=> true
 
-isSpdxLicenseIdentifier('foo-bar-baz'); //=> false
+isSpdxLicenseId('foo-bar-baz'); //=> false
 ```
 
 ## Installation
@@ -23,28 +23,28 @@ isSpdxLicenseIdentifier('foo-bar-baz'); //=> false
 #### [npm](https://www.npmjs.com/)
 
 ```sh
-npm install is-spdx-license-identifier
+npm install is-spdx-license-id
 ```
 
 #### [Bower](http://bower.io/)
 
 ```sh
-bower install is-spdx-license-identifier
+bower install is-spdx-license-id
 ```
 
 #### [Duo](http://duojs.org/)
 
 ```javascript
-var isSpdxLicenseIdentifier = require('shinnn/is-spdx-license-identifier.js');
+var isSpdxLicenseId = require('shinnn/is-spdx-license-id.js');
 ```
 
 ### Standalone
 
-Download [the script file](https://raw.githubusercontent.com/shinnn/is-spdx-license-identifier.js/master/is-spdx-license-identifier.js) and [its dependency](https://raw.githubusercontent.com/shinnn/spdx-license-identifiers/master/spdx-license-identifiers.js).
+Download [the script file](https://raw.githubusercontent.com/shinnn/is-spdx-license-id.js/master/browser.js) and [its dependency](https://raw.githubusercontent.com/shinnn/spdx-license-ids/master/spdx-license-ids-browser.js).
 
 ## API
 
-### isSpdxLicenseIdentifier(*string*)
+### isSpdxLicenseId(*string*)
 
 *string*: `String`  
 Return: `Boolean`

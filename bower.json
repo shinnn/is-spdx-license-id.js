@@ -1,5 +1,5 @@
 {
-  "name": "is-spdx-license-identifier",
+  "name": "is-spdx-license-id",
   "description": "Check if the string is one of the SPDX license identifiers",
   "keywords": [
     "spdx",
@@ -8,11 +8,11 @@
     "check",
     "oss"
   ],
-  "main": "is-spdx-license-identifier.js",
-  "homepage": "https://github.com/shinnn/is-spdx-license-identifier.js",
+  "main": "browser.js",
+  "homepage": "https://github.com/shinnn/is-spdx-license-id.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/shinnn/is-spdx-license-identifier.js.git"
+    "url": "git://github.com/shinnn/is-spdx-license-id.js.git"
   },
   "authors": [
     {
@@ -22,7 +22,7 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "spdx-license-identifiers": "~1.1.0"
+    "spdx-license-ids": "~1.0.0"
   },
   "ignore": [
     "**/.*",

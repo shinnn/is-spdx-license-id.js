@@ -9,7 +9,7 @@ function runTest(description, main) {
 
     t.equal(
       main.name,
-      'isSpdxLicenseIdentifier', 'should have a function name.'
+      'isSpdxLicenseId', 'should have a function name.'
     );
 
     t.strictEqual(
@@ -38,9 +38,9 @@ function runTest(description, main) {
   });
 }
 
-runTest('require(\'is-spdx-license-identifier\')', require('./'));
+runTest('require(\'is-spdx-license-id\')', require('./'));
 
 global.window = {};
 requireBowerFiles({self: true});
 
-runTest('window.isSpdxLicenseIdentifier', window.isSpdxLicenseIdentifier);
+runTest('window.isSpdxLicenseId', window.isSpdxLicenseId);
